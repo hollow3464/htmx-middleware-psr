@@ -8,7 +8,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 
-final class Middleware implements MiddlewareInterface
+final class HtmxMiddlewarePsr implements MiddlewareInterface
 {
     public const ATTRIBUTE_NAME = 'HTMX_REQUEST_ATTRIBUTE';
 
