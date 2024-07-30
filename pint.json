@@ -1,0 +1,23 @@
+{
+    "preset": "psr12",
+    "rules": {
+        "concat_space": {
+            "spacing": "one"
+        },
+        "binary_operator_spaces": {
+            "operators": {
+                "=>": "align_single_space_minimal"
+            }
+        },
+        "class_attributes_separation": {
+            "elements": {
+                "property": "none"
+            }
+        },
+        "curly_braces_position": {
+            "allow_single_line_anonymous_functions": true
+        },
+        "array_indentation": true,
+        "unary_operator_spaces": false
+    }
+}
